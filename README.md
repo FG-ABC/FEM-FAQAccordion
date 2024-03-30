@@ -21,7 +21,7 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 ### Links
 
 - Challenge URL:  [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz)
-- Live Site URL: [Live URL](https://your-live-site-url.com)
+- Live Site URL: [Live URL](https://fg-abc.github.io/FEM-FAQAccordion/)
 
 ## My process
 I built this project with React and Tailwind CSS.
