@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --LightPink: hsl(275, 100%, 97%);
+    --GrayishPurple: hsl(292, 16%, 49%);
+    --DarkPurple: hsl(292, 42%, 14%);
+    }
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-image: url('./assets/images/background-pattern-mobile.svg');
+    background-color: hsl(275, 100%, 97%);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    font-weight: 700;
+    text-shadow: 1.5px 0 #000000;
+}
+
+@media screen and (min-width: 640px) {
+    .faqHolder {
+      width: 650px;
+    }
+
+    body{
+        background-image: url('./assets/images/background-pattern-desktop.svg');
+    }
+  }
